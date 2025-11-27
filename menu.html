@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu | Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2 class="logo">Foodie</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<h1 class="page-title">Our Menu</h1>
+
+<div class="menu-container">
+
+    <div class="item-card">
+        <img src="images/pizza.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p class="price">₹250</p>
+        <button onclick="addToCart('Pizza', 250, 'images/pizza.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="item-card">
+        <img src="images/burger.jpg" alt="Burger">
+        <h3>Burger</h3>
+        <p class="price">₹120</p>
+        <button onclick="addToCart('Burger', 120, 'images/burger.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="item-card">
+        <img src="images/sandwich.jpg" alt="Sandwich">
+        <h3>Sandwich</h3>
+        <p class="price">₹90</p>
+        <button onclick="addToCart('Sandwich', 90, 'images/sandwich.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="item-card">
+        <img src="images/fries.jpg" alt="French Fries">
+        <h3>French Fries</h3>
+        <p class="price">₹80</p>
+        <button onclick="addToCart('French Fries', 80, 'images/fries.jpg')">Add to Cart</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
